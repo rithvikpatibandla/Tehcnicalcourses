@@ -40,7 +40,7 @@ console.log(x == y); // true
 console.log(x === y); //false
 ```
 
- `===` is much faster compared to `==` because there's only one step is performed whereas in `==` Typecasting/Coersion is performed.
+`===` is much faster compared to `==` because there's only one step is performed whereas in `==` Typecasting/Coersion is performed.
 
 ## Functions
 
@@ -65,6 +65,7 @@ function body()
 without return prints "undefined"  
 function call  
 argument = 10
+
 ```js
 function double(n) {
   return n + 2;
@@ -90,7 +91,8 @@ console.log(triple(1));
 ```
 
 ## Arrow Functions
-~~~js
+
+```js
 const sum = (x, y) => {
   return x + y;
 };
@@ -99,4 +101,17 @@ console.log(sum(3, 2));
 // Single line
 const mul = (x, y) => x * y;
 console.log(mul(4, 2));
-~~~
+```
+
+## Call by value
+
+```js
+Var q1=[100,200];
+var q2=[...q1];
+
+var q3=[60,..q1,90,40];
+console.log(q3);
+
+var  t1=[400,500];
+var  t2=[90,80];
+```
