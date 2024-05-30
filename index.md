@@ -16,3 +16,10 @@ cconsole.log(Add(4,5))
 
 DRY
 =>> Dont repeat Yourself
+5 Pillars if code quality
+1)Redability
+
+2. Maintanability
+   3)Extensibilty
+   4)Testability
+   5)Performance
